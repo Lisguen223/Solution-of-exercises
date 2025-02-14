@@ -1,13 +1,14 @@
-﻿namespace ConsoleApp1
+namespace ConsoleApp1
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            float a = 10; 
-            float b = 38;
-            float c = (31 - 5 * a) / b;
+            int a = 10; 
+            int b = 38;
+            int c = (31 - 5 * a) / b;
             Console.WriteLine(c);
+            Console.WriteLine("результат равен 0, поскольку операция между переменными типа int не учитывает числа после десятичной точки.")
         }
     }
 }
